@@ -1,23 +1,26 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<style>
+body {
+  padding-top: 80px;
+  text-align: center;
+  font-family: Helvetica, monospace;
+  background-repeat: no-repeat;
+  background-size: auto;;
+}
+h1, h2 {
+  display: inline-block;
+  
+}
+h1 {
+  font-size: 30px
+}
+h2 {
+  font-size: 20px;
+}
+span {
+  background: #fd0;
+}
+</style>
+<p><img src="https://raw.githubusercontent.com/tgergo1/lindyhop/master/Captssure.PNG" alt="" width="368" height="407" /></p>
+<h1>Welcome to Lindy Hop</h1><br>
+<h2>A robust, bold big-data filesystem concept.</h2><br>
+<a href="https://github.com/tgergo1/lindyhop"><img src="https://cdn3.iconfinder.com/data/icons/social-icons-24/24/Github-512.png" width="82" height="86" title="White flower" alt="Flower"></a>
